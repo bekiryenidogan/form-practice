@@ -1,43 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./normalize.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <script src='./js/index.js' defer></script>
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/index.js" defer></script>
+  </head>
 
-</head>
-
-
-<body>
-     <div class="main-wrap">
-     <div class="form-wrap">
-        <h1> SIGN UP</h1>
-        <h5> This is just an example </h5>
+  <body>
+    <div class="main-wrap">
+      <div class="form-wrap">
+        <h1>SIGN UP</h1>
+        <h5>This is just an example</h5>
         <form onsubmit="return false;" class="form">
-                    <input type="text" name="fname" id="fname"  placeholder="First Name" required> 
-                    </br>
-                    <input type="text" name="lname" id="lname"  placeholder="Last Name" required> 
-                    </br>
-                    <input type="email" name="email" id="email"  placeholder="e-Mail " required> 
-                    </br>
-                    <input type="tel" name="phone" id="phone"  placeholder="Phone Number " > 
-                    </br>   
-                    <input type="password" name="pass" id="pass"  placeholder="Password " required> 
-                    </br>
-                    <input type="password" name="confirm-pass" id="confirm-pass"  placeholder="Confirm Password " required> 
-                    </br> 
-                    <button type="submit" class="signup-btn">Create Account</button>
-                    <br>
-                    
-      </form>
-    <div class='error-wrapper'>
-        <div class='pass-error-msg'>* Something wrong on password</div>
+          <input
+            type="text"
+            name="fname"
+            id="fname"
+            placeholder="First Name"
+            required
+          />
+          <br />
+          <input
+            type="text"
+            name="lname"
+            id="lname"
+            placeholder="Last Name"
+            required
+          />
+          <br />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="e-Mail "
+            required
+          />
+          <br />
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            placeholder="Phone Number "
+          />
+          <br />
+          <input
+            type="password"
+            name="pass"
+            id="pass"
+            placeholder="Password "
+            required
+          />
+          <br />
+          <input
+            type="password"
+            name="confirm-pass"
+            id="confirm-pass"
+            placeholder="Confirm Password "
+            required
+          />
+          <br />
+          <button type="submit" class="signup-btn">Create Account</button>
+          <br />
+        </form>
+        <div class="error-wrapper">
+          <div class="pass-error-msg">* Something wrong on password</div>
         </div>
-     </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
